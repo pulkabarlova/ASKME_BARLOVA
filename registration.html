@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reg</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <a href="#">
+            AskPupkin
+        </a>
+    </div>
+    <div class="search-form">
+        <form action="#">
+            <input class="search-form-input" type="text">
+            <button class="search-form-button">Ask!</button>
+        </form>
+    </div>
+    <div class="account">
+        <div class="account-image">
+            <img src="./image.jpg" alt="Hi">
+        </div>
+        <div class="account_content">
+            <div class="account-name">Username</div>
+            <a href="/settings.html">settings</a>
+            <a href="/logout.html">log out</a>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <section class="register-form">
+        <div class="title-bar">
+            <h1>Registration</h1>
+            <h5 class="error-message">Sorry, this email address already registered!</h5>
+        </div>
+        <form action="#">
+            <input type="text" placeholder="Login" class="form-input" required>
+            <input type="email" placeholder="Email" class="form-input" required>
+            <input type="text" placeholder="Nickname" class="form-input" required>
+            <input type="password" placeholder="Password" class="form-input" required>
+            <input type="password" placeholder="Repeat password" class="form-input" required>
+            <div class="file-upload">
+                <label for="avatar">Upload avatar:</label>
+                <input type="file" id="avatar" name="avatar">
+            </div>
+            <button type="submit" class="form-button">Register!</button>
+        </form>
+    </section>
+    <aside class="sidebar">
+        <section class="popular-tags">
+            <h3>Popular Tags</h3>
+            <div class="tags">
+                <a href="#">perl</a>
+                <a class="python" href="#">python</a>
+                <a class="techno-park" href="#">TechnoPark</a>
+                <a class="mysql" href="#">MySQL</a>
+                <a class="django" href="#">django</a>
+                <a class="mailru" href="#">Mail.Ru</a>
+                <a class="voloshin" href="#">Voloshin</a>
+                <a class="firefox" href="#">Firefox</a>
+            </div>
+        </section>
+        <section class="best-members">
+            <h3>Best Members</h3>
+            <ul class="best-members-list">
+                <li>Mr. Freeman</li>
+                <li>Dr. House</li>
+                <li>Bender</li>
+                <li>Queen Victoria</li>
+                <li>V. Pupkin</li>
+            </ul>
+        </section>
+    </aside>
+</main>
+</body>
+</html>
